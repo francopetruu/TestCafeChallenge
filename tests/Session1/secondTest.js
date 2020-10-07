@@ -2,7 +2,7 @@ import { Selector, t } from 'testcafe';
 import { ClientFunction} from 'testcafe';
 
 const getURL = ClientFunction(() => window.location.href);
-const activeTabTitle = Selector('h1');
+//const activeTabTitle = Selector('h1');
 
 function returnNavBar(index) {return Selector('body > div.page-content-wrapper > div.doc-top-nav > div > div > div:nth-child('+ index +') > a'); }
 
