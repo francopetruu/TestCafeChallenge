@@ -2,18 +2,6 @@ import mainPage from '../../pages/page-object-Main';
 import getStartedPage from '../../pages/page-object-GetStarted';
 import { ClientFunction } from 'testcafe';
 
-//import { Selector, t } from 'testcafe';
-//import { ClientFunction} from 'testcafe';
-
-//const feature1 = Selector('#main-form > div.features-section > div > div.features > div.row.row-1 > div:nth-child(1) > div > p');
-//const feature2 = Selector('#main-form > div.features-section > div > div.features > div.row.row-1 > div:nth-child(2) > div > p');
-//const feature3 = Selector('#main-form > div.features-section > div > div.features > div.row.row-1 > div:nth-child(3) > div > p');
-//const feature4 = Selector('#main-form > div.features-section > div > div.features > div.row.row-2 > div:nth-child(1) > div > p');
-//const feature5 = Selector('#main-form > div.features-section > div > div.features > div.row.row-2 > div:nth-child(2) > div > p');
-//const feature6 = Selector('#main-form > div.features-section > div > div.features > div.row.row-2 > div:nth-child(3) > div > p');
-//const getURL = ClientFunction(() => window.location.href);
-//const activeTabTitle = Selector('body > div.page-content-wrapper > div.container > main > article > div > h1');
-//const getStartedButton = Selector('#main-form > div.banner > div > div.banner-text > a > div');
 
 const MainPage = new mainPage();
 const GetStartedPage = new getStartedPage();

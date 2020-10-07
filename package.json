@@ -1,6 +1,6 @@
 {
     "scripts": {
-    "testDemo": "testcafe chrome tests/Session1/firstTest.js"
+    "testDemo": "testcafe chrome tests/Session1/secondTest.js"
     
 },
 
