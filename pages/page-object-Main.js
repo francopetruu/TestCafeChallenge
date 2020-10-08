@@ -1,4 +1,4 @@
-import { Selector } from 'testcafe' ; 
+import { Selector, t } from 'testcafe' ; 
 import { ClientFunction } from 'testcafe';
 
 export default class mainPage {
@@ -10,9 +10,11 @@ export default class mainPage {
         this.feature4 = Selector('#main-form > div.features-section > div > div.features > div.row.row-2 > div:nth-child(1) > div > p');
         this.feature5 = Selector('#main-form > div.features-section > div > div.features > div.row.row-2 > div:nth-child(2) > div > p');
         this.feature6 = Selector('#main-form > div.features-section > div > div.features > div.row.row-2 > div:nth-child(3) > div > p');
-
+        
         
 }
 
-
 }
+
+
+

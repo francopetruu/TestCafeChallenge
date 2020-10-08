@@ -7,4 +7,9 @@ export default class getStartedPage {
 
     }
 
+    returnNavBar(index) {
+        return Selector('body > div.page-content-wrapper > div.doc-top-nav > div > div > div:nth-child('+ index +') > a');
+
+    }
+
 }
