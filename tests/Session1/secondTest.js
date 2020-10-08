@@ -7,13 +7,13 @@ const MainPage = new mainPage();
 const GetStartedPage = new getStartedPage();
 
 fixture `Testcase 2`
-    .page `https://devexpress.github.io/testcafe/`
+    .page (MainPage.mainURL)
 
 test('Check Getting Started in TestCase 2', async t=> {
     await t
         .click(MainPage.getStartedButton);
         await t
-        .expect(getURL()).eql('https://devexpress.github.io/testcafe/documentation/getting-started/');
+        .expect(getURL()).eql(GetStartedPage.getStartedURL);
 
     for (let i=1; i<7; i++) {
 

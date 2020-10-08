@@ -8,7 +8,7 @@ const GetStartedPage = new getStartedPage();
 const getURL = ClientFunction(() => window.location.href);
 
 fixture `Testcase 1`
-    .page `https://devexpress.github.io/testcafe/`
+    .page (MainPage.mainURL)
 
 test('Check white text', async t=> {
     await t

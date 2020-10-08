@@ -4,7 +4,7 @@ export default class getStartedPage {
     constructor () {
         this.activeTabTitle = Selector('h1');
         this.pageTitle = Selector("title");
-
+        this.getStartedURL = `https://devexpress.github.io/testcafe/documentation/getting-started/`;
     }
 
     returnNavBar(index) {
