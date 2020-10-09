@@ -4,7 +4,7 @@ _Welcome to this repository. Here you will find the resolution of the challenge 
 
 ## Description
 
-This version has a POM implementation in both test cases. Into "pages" folder you will find two files wich corresponds to the two pages tested in this challenge. Selectors, URLs and functions have been mooved to this page objects files. I had some troubles declaring the client function outside of the test files, so I had to live it there. Also, TestCafe returns two warnings _"You passed a DOM snapshot property to the assertion's 't.expect()' method"_ probably related with a malfunction of the Snapshot Property Warning with loops (See [#5389](https://github.com/DevExpress/testcafe/issues/5389)).
+This version has a POM implementation in both test cases. Into "pages" folder you will find two files wich corresponds to the two pages tested in this challenge. Selectors, URLs and functions have been mooved to this page objects files. I had some troubles declaring the client function outside of the test files, so I had to leave it there. Also, TestCafe returns two warnings _"You passed a DOM snapshot property to the assertion's 't.expect()' method"_ probably related with a malfunction of the Snapshot Property Warning with loops (See [#5389](https://github.com/DevExpress/testcafe/issues/5389)).
 
 ## Getting started
 
@@ -16,7 +16,7 @@ Press ENTER, and get started!
 
 ## Pre-Requirements
 
-You have to have some IDE, in my case Visual Studio Code. Also, node.js (LTS version recommended) has to be installed. Then, in the Visual Studio terminal we write:
+It is not necesary to have an IDE, but it is recommended if you want to see the code in detail. In my case, I used Visual Studio Code. Also, node.js (LTS version recommended) has to be installed. Then, in the Visual Studio terminal we write:
 
 `npm install -g testcafe`
 
