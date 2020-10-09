@@ -15,9 +15,5 @@ export default class getStartedPage {
 
     }
 
-    getURL() {
-        return ClientFunction(() => window.location.href);
-
-    }
 
 }
