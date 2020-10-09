@@ -14,7 +14,7 @@ You have to have some IDE, in my case Visual Studio Code. Also, node.js (LTS ver
 
 ## Instalation and Test Execution
 
-In order to execute the test, the firsTest.js and secondTest.js inside of tests/Session1 folder, correspond to the excercise 1 and 2 respectively. Into the file package.json, we have to change the value of the key _"testDemo"_ with the name of the test that we want to run. For example, to run _firsTest.js_, it will be:
+In order to execute the test, the _firsTest.js_ and _secondTest.js_ inside of _tests/Session1_ folder, correspond to the excercise 1 and 2 respectively. Into the file _package.json_, we have to change the value of the key _"testDemo"_ with the name of the test that we want to run. For example, to run _firsTest.js_, it will be:
 
 `"testDemo": "testcafe chrome tests/Session1/firstTest.js"`
 
