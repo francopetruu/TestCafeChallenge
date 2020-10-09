@@ -2,6 +2,7 @@ import mainPage from '../../pages/page-object-Main';
 import getStartedPage from '../../pages/page-object-GetStarted';
 import { ClientFunction} from 'testcafe';
 
+
 const getURL = ClientFunction(() => window.location.href);
 const MainPage = new mainPage();
 const GetStartedPage = new getStartedPage();
@@ -13,7 +14,7 @@ test('Check Getting Started in TestCase 2', async t=> {
     await t
         .click(MainPage.getStartedButton);
         await t
-        .expect(getURL()).eql(GetStartedPage.getStartedURL);
+        .expect(await getURL()).eql(GetStartedPage.getStartedURL);
 
     for (let i=1; i<7; i++) {
 
